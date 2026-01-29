@@ -49,10 +49,10 @@ export function Footer() {
                 <Phone className="mr-3 h-4 w-4 text-accent" />
                 Phone: 022-41891247
               </p> */}
-              <Link href="#" className="flex items-center text-accent hover:underline">
+              <a href="https://www.linkedin.com/company/hirion-service/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="flex items-center text-accent hover:underline">
                 <Linkedin className="mr-3 h-4 w-4" />
                 LinkedIn
-              </Link>
+              </a>
             </div>
           </div>
 
