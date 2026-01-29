@@ -25,7 +25,8 @@ export default function ContactPage() {
               {/* Overlay elements like the image */}
               <div className="absolute top-8 left-8 bg-white p-4 rounded-lg shadow-lg max-w-[200px] hidden md:block">
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Our Location</p>
-                <p className="text-xs text-slate-600">USA Business Hub & Haryana Technology Park</p>
+                <p className="text-xs text-slate-600">4th Floor, Piramal Tower, Peninsula Corporate Park,
+                    Off Senapati Bapat Marg, Lower Parel West, Mumbai - 400013.</p>
               </div>
             </div>
 
@@ -53,7 +54,7 @@ export default function ContactPage() {
 
           {/* Contact Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            {/* <Card className="bg-[#835c3a] text-white border-none shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <Card className="bg-[#835c3a] text-white border-none shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 flex items-start space-x-6">
                 <div className="h-12 w-12 rounded-xl bg-accent flex items-center justify-center shrink-0">
                   <Phone className="h-6 w-6" />
@@ -61,12 +62,12 @@ export default function ContactPage() {
                 <div className="space-y-2">
                   <h3 className="font-bold text-xl tracking-tight">Phone:</h3>
                   <div className="text-primary-foreground/70 text-sm space-y-1">
-                    <p>022-41891247</p>
-                    <p>08448399673 (WhatsApp)</p>
+                    <p>022-41892251</p>
+                    {/* <p>08448399673 (WhatsApp)</p> */}
                   </div>
                 </div>
               </CardContent>
-            </Card> */}
+            </Card>
 
             <Card className="bg-[#835c3a]/95 text-white border-none shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-8 flex items-start space-x-6">
@@ -105,7 +106,8 @@ export default function ContactPage() {
                 <div className="space-y-2">
                   <h3 className="font-bold text-xl tracking-tight">Indian Branch:</h3>
                   <p className="text-primary-foreground/70 text-sm leading-relaxed">
-                    401, 8th Floor, Pinnacle Business Tower Road, I 01, Surajkund, Faridabad, Haryana 121009
+                    4th Floor, Piramal Tower, Peninsula Corporate Park,
+                    Off Senapati Bapat Marg, Lower Parel West, Mumbai - 400013.
                   </p>
                 </div>
               </CardContent>
@@ -130,9 +132,9 @@ export default function ContactPage() {
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-bold text-xl tracking-tight">LinkedIn:</h3>
-                  <p className="text-primary-foreground/70 text-sm leading-relaxed underline cursor-pointer">
+                  <a href="https://www.linkedin.com/company/hirion-service/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 text-sm leading-relaxed underline cursor-pointer">
                     Follow us on LinkedIn
-                  </p>
+                  </a>
                 </div>
               </CardContent>
             </Card>
